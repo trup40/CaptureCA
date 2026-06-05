@@ -27,5 +27,7 @@ This module follows the standard Magisk module hierarchy:
 *   This module is licensed under the GNU General Public License Version 2 (GPLv2). Please refer to the `LICENSE` file for more details.
 *   If you want to inject your own `.0` certificate, you can extract the downloaded zip file, replace the files inside the `system/etc/security/cacerts/` directory with your own certificates, and repackage it as a zip.
 
+*   81c450f1.0 = PCAPdroid, 243f0bfb.0 = ProxyPin, b4e7f0a0.0 = Reqable, 269953fb.0 = Fiddler.
+
 ---
 *packed by [trup40](https://github.com/trup40)*
