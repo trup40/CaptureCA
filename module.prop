@@ -1,0 +1,6 @@
+id=CaptureCA
+name=CaptureCA
+version=1.0.0
+versionCode=1
+author=trup40
+description=Certificate installer for ProxyPin, Reqable, PCAPdroid and Fiddler.
