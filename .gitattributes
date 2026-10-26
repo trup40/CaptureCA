@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.prop text eol=lf
+update-binary text eol=lf
+updater-script text eol=lf
+*.0 binary

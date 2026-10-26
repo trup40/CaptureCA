@@ -20,6 +20,8 @@ set_context() {
 
 echo "[$(date +%F) $(date +%T)] - CaptureCA post-fs-data.sh start."
 chown -R 0:0 ${MODDIR}/system/etc/security/cacerts
+chcon -R u:object_r:system_file:s0 ${MODDIR}/system
+chcon -R u:object_r:system_security_cacerts_file:s0 ${MODDIR}/system/etc/security/cacerts
 
 if [ -d /apex/com.android.conscrypt/cacerts ]; then
     # Android 14 and up (Conscrypt APEX) detection
